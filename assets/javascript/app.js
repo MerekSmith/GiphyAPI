@@ -92,7 +92,7 @@ $(document).ready(function () {
 		
 		for (var i = 0; i < buttonValueArray.length; i++) {
 			var buttonTag = $('<button>')
-			buttonTag.addClass('userButton');
+			buttonTag.addClass('userButton btn btn-primary');
 			buttonTag.attr("data-value", buttonValueArray[i]);
 			buttonTag.text(buttonValueArray[i])
 			// buttonTag.css('margin-left', '4px').css('margin-right', '4px');

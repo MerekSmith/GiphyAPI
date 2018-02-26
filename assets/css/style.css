@@ -16,11 +16,7 @@
 	padding: 10px;
 }
 
-/* button {
-	margin: 0;
-} */
-
-.userButton {
+.btn {
 	font-size: 20px;
 	padding-left: 5px;
 	padding-right: 5px;
@@ -30,4 +26,8 @@
 
 #find-user-input {
 	margin-top: 10px;
+}
+
+h2 {
+	text-decoration-style: bold;
 }

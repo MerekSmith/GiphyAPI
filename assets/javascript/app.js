@@ -8,12 +8,6 @@ $(document).ready(function () {
 	var buttonValueArray = ["Bear", "Puppy", "Funny Cat", "Funny Dog", "Otter", "Kitten", "Baby Goat"];
 
 	console.log(!Array.isArray(buttonValueArray));
-	// Checks to see if the user list exists in localStorage and is an array currently
-	// If not, set a local list variable to an empty array
-	// Otherwise list is our current list of button selectors
-	if (!Array.isArray(buttonValueArray)) {
-		buttonValueArray = ["Bear", "Puppy", "Funny Cat", "Funny Dog", "Otter", "Kitten", "Baby Goat"];
-	}
 
 
 	intialize();
@@ -86,6 +80,9 @@ $(document).ready(function () {
 
 		buttonValueArray = JSON.parse(localStorage.getItem("userButtons"));
 
+		// Checks to see if the user list exists in localStorage and is an array currently
+		// If not, set a local list variable to an empty array
+		// Otherwise list is our current list of button selectors
 		if (!Array.isArray(buttonValueArray)) {
 			buttonValueArray = ["Bear", "Puppy", "Funny Cat", "Funny Dog", "Otter", "Kitten", "Baby Goat"];
 		}

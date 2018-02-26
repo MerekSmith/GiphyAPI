@@ -1,0 +1,33 @@
+.gifDiv {
+	display: inline-block;
+	margin: 5px;
+}
+
+.row {
+	margin: 0px;
+	margin-top: 10px;
+}
+
+.col-md-8 {
+	padding: 0px;
+}
+
+.buttonContainer {
+	padding: 10px;
+}
+
+/* button {
+	margin: 0;
+} */
+
+.userButton {
+	font-size: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#find-user-input {
+	margin-top: 10px;
+}

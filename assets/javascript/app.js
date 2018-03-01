@@ -58,9 +58,9 @@ $(document).ready(function () {
 
 	
 	function userInput() {
-		$('#find-user-input').on('click', function () {
+		$('#find-user-input').on('click', function (event) {
 			// the event prevent default function prevents the submit button from trying to submit a form.
-			event.preventDefault();
+			event.preventDefault(event);
 			var userInput = $('#user-input').val().trim();
 			$('#user-input').val('');
 

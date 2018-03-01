@@ -9,7 +9,7 @@ body {
 
 .row {
 	margin: 0px;
-	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 .col-md-8 {
@@ -29,6 +29,15 @@ body {
 	margin-right: 4px;
 }
 
+.userButton {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.userForm {
+	padding-left: 0px;
+}
+
 .btn:hover, .btn:active {
 	background-color: #00008B;
 }
@@ -40,3 +49,8 @@ body {
 h3 {
 	text-decoration-style: bold;
 }
+
+@media screen and (max-width: 990px) {
+	.userForm {
+		padding: 0px;
+	}
